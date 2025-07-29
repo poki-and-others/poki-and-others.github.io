@@ -5,3 +5,7 @@ body {
 h1 {
 	font-style: bold;
 }
+
+img {
+	height: 300px;
+}
