@@ -1,11 +1,47 @@
 body {
+	background-color: ghostwhite;
 	font-family: monospace;
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-	font-style: bold;
+p, h1, h2, h3, h4, h5, h6, img, header {
+	margin: 10px;
 }
+
+
+#myNavbar {
+	background-color: darkred;
+	margin: 0 0 0 0;
+	padding: 5px 10px 5px 10px;
+	margin: 0 0 20px 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	position:fixed;
+	height: 20px;
+}
+
+.navTab {
+	color: white;
+	font-weight: bold;	
+	text-decoration: none;
+	margin: 0;
+}
+
+header {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+nav {
+	background-color: hotpink;
+	padding: 5px 10px 5px 10px;
+}
+
 
 img {
 	height: 300px;
 }
+
