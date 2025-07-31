@@ -41,7 +41,18 @@ nav {
 }
 
 
-img {
-	height: 300px;
+img, video {
+	max-width: 300px;
+	max-height: 300px;
+	object-fit: contain; 
+	height: auto;
+	width: auto;
+}
+
+.imageBlock {
+	width: 350px;
+	text-align: center;
+	padding: 0;
+	margiin: 0;
 }
 
